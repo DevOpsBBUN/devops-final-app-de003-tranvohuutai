@@ -102,7 +102,7 @@ jobs:
       packages: read
     steps:
       - name: Tailscale
-        uses: tailscale/github_action@v2
+        uses: tailscale/github_actions@v2
         with: ${{ secrets.TAILSCALE_AUTH }}
       - name: Deploy qua SSH
         uses: appleboy/ssh-action@v1.2.0
