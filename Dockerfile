@@ -36,4 +36,4 @@ USER spring
 EXPOSE 8083
 
 # ENTRYPOINT dạng exec (mảng JSON)
-ENTRYPOINT ["java", "-jar", "/app/app.jar"]
+ENTRYPOINT ["java", "-jar", "/app/*.jar"]
